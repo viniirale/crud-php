@@ -20,7 +20,7 @@
             </div>
             <div class="form-group form-row">
                 <label class="col-sm-2 col-form-label text-right">E-mail:</label>
-                <input type="text" class="form-control col-sm-8" name="email" id="email" value="<?php
+                <input type="email" class="form-control col-sm-8" name="email" id="email" value="<?php
                 echo isset($client->email) ? $client->email : null;
                 ?>" required>
             </div>
