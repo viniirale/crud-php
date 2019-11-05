@@ -9,7 +9,7 @@ class Connection
     public static function getInstance()
     {
         if (is_null(self::$connection)) {
-            self::$connection = new \PDO('mysql:host=fugfonv8odxxolj8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;port=3306;dbname=pqvn5ai28jbaycki', 'qx1kdutgtghybu9u', 'pe8m44ffc458ebxw');
+            self::$connection = new \PDO('mysql:host=bmsyhziszmhf61g1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;port=3306;dbname=wzh3jh8on47y3bih', 'y5u16l9arl75jtl5', 'etqheojvzz9suzs8');
             self::$connection->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
             self::$connection->exec('set names utf8');
         }
