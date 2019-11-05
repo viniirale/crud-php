@@ -46,7 +46,7 @@ spl_autoload_register(function ($class) {
         }
     } else {
         echo '<div class="container"><h1>Clientes</h1><hr>';
-        echo 'Bem-vindo ao aplicativo da Husky Clientes! <br /><br />';
+        echo 'Bem-vindo ao aplicativo de Clientes! <br /><br />';
         echo '<a href="?controller=ClientsController&method=list" class="btn btn-success">Vamos Começar!</a></div>';
     }
     ?>
